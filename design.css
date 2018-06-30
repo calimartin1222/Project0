@@ -1,0 +1,13 @@
+body
+{
+    background-color: #3C493F;
+}
+#header{
+    background-color: #7E8D85;
+    color: #F0F7F4;
+    padding: 40px;
+    text-align: center;
+}
+.menu{
+    background-color: #A2E3C4;
+}
