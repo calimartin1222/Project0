@@ -8,6 +8,7 @@ body
     padding: 40px;
     text-align: center;
 }
-.menu{
-    background-color: #A2E3C4;
+.col-md-auto{
+    width:100%;
+    background-color: #B3BFB8;
 }
