@@ -1,21 +1,17 @@
 body
 {
-    background-color: #3C493F;
-}
-#header{
-    background-color: #7E8D85;
-    color: #F0F7F4;
-    padding: 40px;
-    text-align: center;
+    background-color: #2B303A;
 }
 .accent{
-    color: #A2E3C4;
+    color: #D64933;
+}
+#accent2{
+    color: #92DCE5;
 }
 h1{
     font-weight: bold;
-    font-size: 25px;
-    color: #7E8D85;
-    padding: 20px;
+    font-size: 35px;
+    margin-right: 10px;
 }
 h2{
     font-weight: lighter;
@@ -25,8 +21,7 @@ h2{
 }
 .row > div {
     margin-top:20px;
-    background-color: #3C493F;
-    border: 2px groove #F0F7F4;
+    background-color: #2B303A;
     color: #F0F7F4;
 }
 table, th, td {
