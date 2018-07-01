@@ -8,7 +8,35 @@ body
     padding: 40px;
     text-align: center;
 }
-.col-md-auto{
-    width:100%;
-    background-color: #B3BFB8;
+.accent{
+    color: #A2E3C4;
+}
+h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: #7E8D85;
+    padding: 20px;
+}
+h2{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #F0F7F4;
+    padding: 10px;
+}
+.row > div {
+    margin-top:20px;
+    background-color: #3C493F;
+    border: 2px groove #F0F7F4;
+    color: #F0F7F4;
+}
+table, th, td {
+    margin-top:20px;
+    border: 1px solid #F0F7F4;
+    color: #F0F7F4;
+    padding: 20px
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: red;
+  }
 }
