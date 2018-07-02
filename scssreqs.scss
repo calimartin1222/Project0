@@ -19,12 +19,12 @@ div {
 
 .tealType{
     @extend %type;
-    background-color: teal;
+    color: teal;
 }
 
 .purpleType{
     @extend %type;
-    background-color: rebeccapurple;
+    color: rebeccapurple;
 }
 body{
     background-color: black;

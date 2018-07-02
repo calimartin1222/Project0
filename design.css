@@ -1,7 +1,9 @@
+/*global attribute*/
 body
 {
     background-color: #2B303A;
 }
+/*define two different accent colors with two different css selectors*/
 .accent{
     color: #D64933;
 }
@@ -11,7 +13,9 @@ body
 h1{
     font-weight: bold;
     font-size: 35px;
-    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
 }
 h2{
     font-weight: lighter;
@@ -19,21 +23,32 @@ h2{
     color: #F0F7F4;
     padding: 10px;
 }
+/*stylizes the Bootstrap columns*/
 .row > div {
     margin-top:20px;
     background-color: #2B303A;
     color: #F0F7F4;
 }
+/*stylizes the table on the table page and its elements*/
 table, th, td {
     margin-top:20px;
+    margin-left:20px;
     border: 1px solid #F0F7F4;
     color: #F0F7F4;
     padding: 20px
 }
-@media (max-width: 499px)
+/*media query changes the background color to white if the viewport is less than 500px*/
+@media (max-width: 500px)
+{
+    body
     {
-        body
-        {
-            background-color: red;
-        }
+        background-color: white;
     }
+}
+a:hover{
+    text-decoration:none;
+    color: #F0F7F4;
+}
+.nav-link{
+    color: #2B303A;
+}
