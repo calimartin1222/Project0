@@ -10,6 +10,7 @@ body
 #accent2{
     color: #92DCE5;
 }
+/*any text with the tag <h1> will have these attributes*/
 h1{
     font-weight: bold;
     font-size: 35px;
@@ -17,6 +18,7 @@ h1{
     margin-bottom: 30px;
     margin-left: 15px;
 }
+/*any text with the tag <h2> will have these attributes*/
 h2{
     font-weight: lighter;
     font-size: 20px;
@@ -45,10 +47,12 @@ table, th, td {
         background-color: white;
     }
 }
+/*styles links so when the user hovers over them, they will have these attributes*/
 a:hover{
     text-decoration:none;
     color: #F0F7F4;
 }
+/*makes the links in the Bootsrtap buttons not blue*/
 .nav-link{
     color: #2B303A;
 }

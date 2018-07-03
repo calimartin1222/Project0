@@ -1,12 +1,13 @@
+/*sets the variables $color1 and $color2*/
 $color1:yellow;
 $color2:pink;
 div {
     font-size: 18px;
-
+    /*paragraph tags inherit the div tag's font size of 18px*/
     p {
         color: $color1;
     }
-
+    /*unordered list tags inherit the div tag's font size of 18px*/
     ul {
         color: $color2;
     }
@@ -16,12 +17,12 @@ div {
     font-size: 16px;
     color: white;
 }
-
+/*the class tealType extends %type and its attributes*/
 .tealType{
     @extend %type;
     color: teal;
 }
-
+/*the class purpleType extends %type and its attributes*/
 .purpleType{
     @extend %type;
     color: rebeccapurple;
