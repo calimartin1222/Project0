@@ -2,16 +2,17 @@
 $color1:yellow;
 $color2:pink;
 div {
-    font-size: 18px;
-    /*paragraph tags inherit the div tag's font size of 18px*/
+    font-size: 24px;
+    /*paragraph tags inherit the div tag's font size of 24px*/
     p {
         color: $color1;
     }
-    /*unordered list tags inherit the div tag's font size of 18px*/
+    /*unordered list tags inherit the div tag's font size of 24px*/
     ul {
         color: $color2;
     }
 }
+/*introduces the template %type that the classes tealType and purpleType extend*/
 %type{
     font-family: sans-serif;
     font-size: 16px;

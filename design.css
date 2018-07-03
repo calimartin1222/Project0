@@ -44,7 +44,7 @@ table, th, td {
 {
     body
     {
-        background-color: white;
+        background-color: green;
     }
 }
 /*styles links so when the user hovers over them, they will have these attributes*/
@@ -55,4 +55,7 @@ a:hover{
 /*makes the links in the Bootsrtap buttons not blue*/
 .nav-link{
     color: #2B303A;
+}
+#activeButton{
+    color: #F0F7F4;
 }

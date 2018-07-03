@@ -1,22 +1,23 @@
-/*see comments on scssreqs.scss for more clarification
-
-/*paragraph and ul tags inherit the div tag's font size of 18px*/
+/*sets the variables $color1 and $color2*/
 div {
-  font-size: 18px; }
+  font-size: 24px;
+  /*paragraph tags inherit the div tag's font size of 18px*/
+  /*unordered list tags inherit the div tag's font size of 18px*/ }
   div p {
     color: yellow; }
   div ul {
     color: pink; }
 
-/*the class tealType and purpleType extended attributes from the same source*/
 .tealType, .purpleType {
   font-family: sans-serif;
   font-size: 16px;
   color: white; }
 
+/*the class tealType extends %type and its attributes*/
 .tealType {
   color: teal; }
 
+/*the class purpleType extends %type and its attributes*/
 .purpleType {
   color: rebeccapurple; }
 
